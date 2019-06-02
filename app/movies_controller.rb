@@ -96,7 +96,7 @@ end
 def can_destroy_a_single_item
   Movie.create(title: "That One Where the Guy Kicks Another Guy Once")
   Movie.where(title: "That One Where the Guy kicks Another Guy Once").destroy_all
-  
+  Movie.save
 end
 
 def can_destroy_all_items_at_once
