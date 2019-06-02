@@ -90,7 +90,7 @@ def can_update_multiple_items_at_once
     Movie.create(title: "Movie_#{i}", release_date: 2000+i)
     #binding.pry
   end
-  __
+  
 end
 
 def can_destroy_a_single_item
